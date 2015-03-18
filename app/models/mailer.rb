@@ -14,7 +14,7 @@ module Oped
         Mail.deliver do
           to App.to_email
           from App.from_email
-          subject "It's #{now.to_s(:wdm)} - How did your day go?"
+          subject "It's #{now.to_s(:wdm)} - What are you grateful for?"
           body text
 
           charset = 'UTF-8'
