@@ -12,39 +12,41 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.8)
-      i18n (~> 0.6, >= 0.6.9)
+    activesupport (4.2.0)
+      i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.1)
+      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    bacon (1.2.0)
     builder (3.2.2)
-    daemons (1.1.9)
+    daemons (1.2.1)
     dedent (1.0.1)
-    dotenv (1.0.2)
+    dotenv (2.0.0)
     email_reply_parser (0.5.8)
     erubis (2.7.0)
-    eventmachine (1.0.3)
-    i18n (0.6.11)
-    json (1.7.7)
-    mail (2.6.1)
+    eventmachine (1.0.7)
+    i18n (0.7.0)
+    json (1.8.2)
+    mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.4.1)
-    minitest (5.4.3)
-    multi_json (1.10.1)
-    pg (0.17.1)
-    rack (1.5.2)
+    mime-types (2.4.3)
+    minitest (5.5.1)
+    multi_json (1.11.0)
+    pg (0.18.1)
+    rack (1.6.0)
     rack-protection (1.5.3)
       rack
-    rack-test (0.6.2)
+    rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.4.0)
-    sequel (4.16.0)
+    rake (10.4.2)
+    sequel (4.20.0)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
     sinatra-sequel (0.9.0)
+      bacon
       sequel (>= 3.2.0)
       sinatra (>= 0.9.4)
     table_print (1.5.3)
@@ -52,7 +54,7 @@ GEM
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0)
       rack (~> 1.0)
-    thread_safe (0.3.4)
+    thread_safe (0.3.5)
     tilt (1.4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -68,7 +70,7 @@ DEPENDENCIES
   email_reply_parser
   erubis
   i18n
-  json (~> 1.7.7)
+  json
   mail
   pg
   rake
