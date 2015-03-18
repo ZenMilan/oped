@@ -39,6 +39,9 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    racksh (1.0.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5)
     rake (10.4.2)
     sequel (4.20.0)
     sinatra (1.4.5)
@@ -73,6 +76,7 @@ DEPENDENCIES
   json
   mail
   pg
+  racksh
   rake
   sequel
   sinatra

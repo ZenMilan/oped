@@ -61,11 +61,9 @@ module Oped
       end
     end
 
+    use Routes::Root
     use Routes::Posts
 
-    get '/' do
-      'Oped'
-    end
   end
 end
 
