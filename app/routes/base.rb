@@ -10,6 +10,7 @@ module Oped
         disable :static
 
         set :haml, format: :html5
+        @num_posts = ::Oped::Models::Post.count
       end
 
       helpers Helpers

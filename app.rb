@@ -6,9 +6,6 @@ Bundler.require
 $: << File.expand_path('../', __FILE__)
 $: << File.expand_path('../lib', __FILE__)
 
-require 'dotenv'
-Dotenv.load
-
 # Require base
 require 'sinatra/base'
 require 'active_support'
