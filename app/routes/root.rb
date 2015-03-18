@@ -3,7 +3,8 @@ module Oped
     class Root < Base
       get '/' do
         @posts = Post.all
-        erb :home
+        @num_posts = Post.count
+        haml :home
       end
     end
   end

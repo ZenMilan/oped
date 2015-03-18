@@ -24,8 +24,9 @@ GEM
     dedent (1.0.1)
     dotenv (2.0.0)
     email_reply_parser (0.5.8)
-    erubis (2.7.0)
     eventmachine (1.0.7)
+    haml (4.0.6)
+      tilt
     i18n (0.7.0)
     json (1.8.2)
     mail (2.6.3)
@@ -71,7 +72,7 @@ DEPENDENCIES
   dedent
   dotenv
   email_reply_parser
-  erubis
+  haml
   i18n
   json
   mail

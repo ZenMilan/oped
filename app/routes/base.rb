@@ -9,8 +9,7 @@ module Oped
         disable :protection
         disable :static
 
-        set :erb, escape_html: true,
-                  layout_options: {views: 'app/views/layouts'}
+        set :haml, format: :html5
       end
 
       helpers Helpers

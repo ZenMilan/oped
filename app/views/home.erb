@@ -1,8 +1,0 @@
-<ul>
-  <% @posts.each do |post| %>
-    <li>
-      <h1><%= post.created_at.to_date.to_formatted_s(:long_ordinal) %> </h1>
-      <p><%= post.body %></p>
-    </li>
-  <% end %>
-</ul>
